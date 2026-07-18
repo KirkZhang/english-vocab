@@ -1,0 +1,19 @@
+# 构建产物 / 中间产物(PWA 部署不需要)
+intermediate/
+output/
+wordlist/
+.ruff_cache/
+__pycache__/
+*.pyc
+.DS_Store
+.playwright-mcp/
+
+# 源项目文件(词表/脚本/原始文档,部署不需要)
+scripts/
+extract_words.py
+words.json
+words_validation.md
+quiz.html
+word-check.html
+英语900句.md
+CLAUDE.md
