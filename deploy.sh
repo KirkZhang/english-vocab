@@ -4,7 +4,7 @@
 set -e
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-ROOT="$(dirname "$SCRIPT_DIR")"          # = HighSchEng 仓库根
+ROOT="$SCRIPT_DIR"                       # = HighSchEng 仓库根(deploy.sh 放仓库根)
 REPO="${1:-english-vocab}"
 cd "$ROOT"
 
