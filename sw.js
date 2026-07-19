@@ -1,6 +1,6 @@
 // Service Worker —— 高中版背单词 PWA 离线缓存
 // 预缓存核心资源(相对路径,适配 GitHub Pages 子路径),缓存优先,回退网络。
-const CACHE = 'vocab-gz-v1';
+const CACHE = 'vocab-gz-v2';
 const CORE = [
   './index.html',
   './manifest.json',
